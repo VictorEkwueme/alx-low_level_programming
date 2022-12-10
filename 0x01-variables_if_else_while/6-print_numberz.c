@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+/**
+* main - decimal numbers to 10
+* Return: Always 0
+*/
+int main(void)
+{
+
+	int d;
+
+	for (d = 0; d < 10; d++)
+	{
+		putchar("%d", d);
+	}
+	putchar("\n");
+	return (0);
+}
