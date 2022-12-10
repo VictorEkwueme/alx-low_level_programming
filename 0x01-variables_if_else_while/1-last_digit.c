@@ -15,11 +15,11 @@ int main(void){
 
 	if (a > 5)
 	{
-		printf("%d and is greater than 5", n);
+		printf("%d and is greater than 5", n, a);
 	}
 	else if (a == 0)
 	{
-		printf("%d and is 0", n);
+		printf("%d and is 0", n, a);
 	}
 	else 
 	{
