@@ -8,15 +8,16 @@
 int main(void){
 
 	int n;
-
+	int a;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	a = n % 15
 
-	if (n > 5)
+	if (a > 5)
 	{
 		printf("%d and is greater than 5", n);
 	}
-	else if (n == 0)
+	else if (a == 0)
 	{
 		printf("%d and is 0", n);
 	}
