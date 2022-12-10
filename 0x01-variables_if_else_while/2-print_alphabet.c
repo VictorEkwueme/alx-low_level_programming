@@ -4,7 +4,7 @@
 * main - Entry
 * Return: Always 0
 */
-int main(void)
+gcc int main(void)
 {
 
 	char xy;
@@ -13,5 +13,5 @@ int main(void)
 		putchar(xy);
 	}
 		putchar('\n');
-			return (0);
+		return (0);
 }
