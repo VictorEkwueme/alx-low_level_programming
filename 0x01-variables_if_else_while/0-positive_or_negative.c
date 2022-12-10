@@ -10,11 +10,14 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) 
 	{
-		printf("%d", n);
+		printf("%d is a positive number\n", n);
 	}
+	else if (n == 0)
+	{
+		print("%d please enter a positive number\n" n);
 	else
 	{
-		printf ("enter a number greater than zero");
+		printf("enter a number greater than zero");
 	}
 	return (0);
 }
