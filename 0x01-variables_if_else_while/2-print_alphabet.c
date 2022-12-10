@@ -4,7 +4,7 @@
 * main - Entry
 * Return: Always 0
 */
-gcc int main(void)
+int main(void)
 {
 
 	char lc;
