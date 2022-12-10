@@ -7,10 +7,10 @@
 gcc int main(void)
 {
 
-	char xy;
-	for (xy ='a', xy <= z, xy++)
+	char lc;
+	for (lc ='a'; lc <= z; lc++);
 	{
-		putchar(xy);
+		putchar(lc);
 	}
 		putchar('\n');
 		return (0);
