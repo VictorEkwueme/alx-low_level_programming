@@ -12,9 +12,6 @@ int main(void)
 	{
 		printf("%d is a positive number\n", n);
 	}
-	else if (n == 0)
-	{
-		print("%d please enter a positive number\n", n);
 	else
 	{
 		printf("%d enter a number greater than zero", n);
