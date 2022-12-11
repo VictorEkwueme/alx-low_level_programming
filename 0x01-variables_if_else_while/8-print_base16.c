@@ -6,11 +6,16 @@
 int main(void)
 {
 
+	int n;
 	char lc;
 
-	for (lc = 'a'; lc >= 'g'; lc++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar("%d", lc);
+		putchar(n);
+	}
+	for (lc = 'a'; lc <= 'g'; lc++)
+	{
+		putchar(lc);
 	}
 	putchar('\n');
 	return (0);
