@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** * main - hexadecimal numbersin lower case
+/** main - hexadecimal numbersin lower case
 * Return: Alway 0
 */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for (lc = 'a'; lc <= 'g'; lc++)
+	for (lc = 'a'; lc <= 'f'; lc++)
 	{
 		putchar(lc);
 	}
