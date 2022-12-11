@@ -5,9 +5,10 @@
 */
 int main(void)
 {
+
 	char lc;
 
-	for (lc = 'a'; lc < 'g'; lc++)
+	for (lc = 'a'; lc >= 'g'; lc++)
 	{
 		putchar("%d", lc);
 	}
