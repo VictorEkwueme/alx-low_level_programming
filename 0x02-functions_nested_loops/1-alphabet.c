@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * main - alphabets
@@ -7,7 +6,6 @@
 */
 int main(void)
 {
-
 	char ch;
 
 	ch = 'a';
@@ -18,5 +16,4 @@ int main(void)
 		ch++;
 	}
 	_putchar('\n');
-	return (0);
 }
