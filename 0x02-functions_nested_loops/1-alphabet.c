@@ -11,7 +11,7 @@ void print_alphabet(void)
 
 	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		_putchar(lc);
+		_putchar("alphabets in lower case from a-z", lc);
 	}
 	_putchar('\n');
 }
