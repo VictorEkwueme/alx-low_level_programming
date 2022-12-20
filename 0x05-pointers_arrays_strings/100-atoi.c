@@ -19,11 +19,11 @@ int _atoi(char *s)
 		}
 		else if (num > 0)
 		{
-		break;
+			break;
 		}
 	}
        	while (*s++);
 	{
-	return (num * sign);
 	}
+	return (num * sign);
 }
