@@ -1,5 +1,6 @@
 /**
- * reset_to_98 - takes a pointer to an int parameterd and updates the value it points to 98
+ * reset_to_98 - takes a pointer to an int parameterd
+ * and updates the value it points to 98
  * @n: int parameter
  * Return: Nothing
  */
